@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "384906881593",
+    "project_id": "gamecarddetectionapp",
+    "storage_bucket": "gamecarddetectionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384906881593:android:2b4985fcb4c9c1d6573be8",
+        "android_client_info": {
+          "package_name": "com.example.gamecarddetectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384906881593-b9slnke6ksfkrvk4s2ge1r9hdhr24ti3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLBnZSaOtG8NARCm6QoyCi037oACwOl0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384906881593-b9slnke6ksfkrvk4s2ge1r9hdhr24ti3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rating">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <RatingBar
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/ratingId"
+            android:numStars="5"
+            android:rating="2.5"
+            android:progressTint="#C5BE88"
+            android:stepSize="1.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RatingBar>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/ratingValueId"
+            android:textStyle="bold"
+            android:hint="3.0"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+
+
+        <Button
+            android:id="@+id/ratingSubmitId"
+            android:text="Submit"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/thankingId"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+        <RatingBar
+            android:id="@+id/showRatingId"
+            android:numStars="5"
+            android:rating="2.5"
+            android:layout_gravity="center"
+            android:isIndicator="true"
+            android:progressTint="#C5BE88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RatingBar>
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/showRatingValueId"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
